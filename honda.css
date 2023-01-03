@@ -1,0 +1,12 @@
+.resize-img{
+    width: 30px;
+    height: 30px;
+    margin-left: 3px;
+    padding: 0;
+}
+.border-3{
+    border-width: 17px!important;
+}
+.nav-link{
+    color: black;
+}

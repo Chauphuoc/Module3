@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div.menu>ul{
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            
+        }
+        li.menu-item>a{
+            text-decoration: none;
+            padding: 10px;
+        }
+        .menu-item {
+            float: left;
+            background-color: antiquewhite;
+            position: relative;
+        }
+        li.menu-item>ul{
+            list-style: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            padding-left: 8px;
+            display: none;
+        }
+        .product{
+            min-width: 100px;
+            background-color: aqua;
+            margin-left: 0px;
+            padding: 5px 0;
+        }
+        .product:hover{
+            background-color: red;
+            cursor: pointer;
+        }
+        li.menu-item:hover>ul{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="menu">
+        <ul>
+            <li class="menu-item"><a href="">Home</a></li>
+            <li class="menu-item">
+                <a href="">List of Product</a>
+                <ul>
+                    <li class="product">X-Pander</li>
+                    <li class="product">Mec-C200</li>
+                    <li class="product">Vios</li>
+                </ul>
+            </li>
+            <li class="menu-item"><a href="">Contact</a></li>
+        </ul>
+    </div>
+</body>
+</html>

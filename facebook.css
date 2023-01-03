@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    height: 45px;
+    justify-content: space-between;
+    position: relative;
+    padding-top: 10px;
+    align-items: center;
+    padding-bottom: 10px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.left-header {
+    width: 350px;
+    height: 100%;
+    display: flex;
+   justify-content: space-around;
+   align-items: center;
+   
+}
+
+.middle-header {
+    
+    height: 100%;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+.right-header{
+    width: 200px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+div.left-header>div>img{
+    height: 80%;
+    position: absolute;
+    top: 0;
+    padding: 5px 0;
+}
+div.left-header>div>input{
+    height: 30px;
+    width: 200px;
+    padding-left: 40px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: gray;
+    margin-bottom: 5px;
+}
+div.left-header+div{
+    margin-right: 5px;
+}
+div.middle-header-item{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div.middle-header>div.middle-header-item>img{
+    height: 80%;
+    width: 40px;
+}
+div.right-header-item{
+    height: 100%;
+}
+div.right-header-item>img{
+    height: 100%;
+}
+div.right-header-item{
+    width: 30%;
+}
+div.middle-header-item:hover{
+    background-color: gray;
+    cursor: pointer;
+}
+div.middle-header-item:hover>img{
+    transform: scale(1.3);
+}
+.middle{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-color: bisque;
+    padding-top: 80px;
+}
+.middle-item-left{
+    width: 30%;
+    height: 400px;
+    background-color: violet;
+}
+.middle-item-middle{
+    width: 40%;
+    height: 100%;
+    background-color: aqua;
+}
+.middle-item-right{
+    width: 30%;
+    height: 1500px;
+    background-color: blue;
+}
+.middle-item-left{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.middle-item-left-section{
+    padding-top: 10px;
+}
+.product-list{
+    max-width: 100px;
+    background-color: red;
+}
+li.middle-item-left-section>div:hover{
+    
+}
